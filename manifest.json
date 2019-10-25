@@ -6,7 +6,7 @@
 
   "default_locale": "en",
   "permissions": ["storage", "tabs"],
-  
+
   "icons": {
     "48": "icons/border-48.png"
   },
@@ -41,5 +41,9 @@
       "matches": ["*://*.mozilla.org/*"],
       "js": ["extension.js"]
     }
+  ],
+
+  "web_accessible_resources": [
+    "images/my-image.png"
   ]
 }
